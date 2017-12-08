@@ -1,8 +1,8 @@
 tap "homebrew/bundle"
 tap "homebrew/core"
 tap "puma/puma"
-
 brew "ack"
+brew "bfg"
 brew "coreutils"
 brew "ffind"
 brew "git"
