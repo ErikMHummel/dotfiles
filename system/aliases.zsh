@@ -8,3 +8,4 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+alias brewski="brew update && brew upgrade && brew cleanup; brew doctor; terminal-notifier -message 'Homebrew updates complete'"
