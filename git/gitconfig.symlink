@@ -16,13 +16,22 @@
         ui = true
 [core]
         excludesfile = ~/.gitignore
-        editor = vim
+        editor = "$EDITOR -n -w"
 [apply]
         whitespace = nowarn
-[mergetool]
-        keepBackup = false
+[diff]
+        tool = subldiff
+[difftool "subldiff"]
+        cmd = $EDITOR -n --wait \"$REMOTE\" \"$LOCAL\" --command \"sublimerge_diff_views {\\\"left_read_only\\\": true, \\\"right_read_only\\\": true}\"
 [difftool]
         prompt = false
+[merge]
+        tool = sublimerge
+[merge "sublimerge"]
+        cmd = subl -n --wait \"$REMOTE\" \"$BASE\" \"$LOCAL\" \"$MERGED\" --command \"sublimerge_diff_views\"
+        trustExitCode = false
+[mergetool]
+        keepBackup = false
 [help]
         autocorrect = 1
 [push]
