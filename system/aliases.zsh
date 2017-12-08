@@ -4,8 +4,6 @@
 if $(gls &>/dev/null)
 then
   alias ls="gls -F --color"
-  alias l="gls -lAh --color"
-  alias ll="gls -l --color"
-  alias la='gls -A --color'
+  alias ll="gls -lAhF --color"
+  alias la='gls -lAhtrF --color'
 fi
-alias brewski="brew update && brew upgrade && brew cleanup; brew doctor; terminal-notifier -message 'Homebrew updates complete'"
