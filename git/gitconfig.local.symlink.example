@@ -1,7 +1,5 @@
 [user]
-    name = Erik Hummel
-    email = ehummel@paypal.com
-[includeIf "gitdir:~/dev/public/"]
-    path = ~/.gitconfig.local.public
+        name = AUTHORNAME
+        email = AUTHOREMAIL
 [credential]
         helper = GIT_CREDENTIAL_HELPER
