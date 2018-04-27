@@ -59,9 +59,6 @@ brew cleanup
 echo "› brew doctor"
 brew doctor
 
-echo "› sudo softwareupdate -i -a"
-sudo softwareupdate -i -a
-
 # Install software
 echo "› $DOTFILES/script/install"
 $DOTFILES/script/install
