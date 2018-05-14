@@ -7,4 +7,3 @@ then
   alias ll="gls -lAhF --color"
   alias la='gls -lAhtrF --color'
 fi
-alias dotit='~/.dotfiles/bin/dot'
