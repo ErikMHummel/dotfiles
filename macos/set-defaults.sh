@@ -25,3 +25,8 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 
 # Show hidden files all teh time
 defaults write com.apple.finder AppleShowAllFiles YES
+
+# Change SlowCloseApps delay to 500ms from 1000ms default
+#   If changed in future, need to `killall SlowQuitApps` 
+#   and restart to take effect
+defaults write com.dteoh.SlowQuitApps delay -int 500
