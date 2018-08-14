@@ -1,7 +1,7 @@
 # Local/private config goes in the include
 [include]
         path = .gitconfig.local
-[includeIf "gitdir:~/dev/"]
+[includeIf "gitdir:~/dev/github.paypal.com/"]
         path = .gitconfig.local.pp
 [hub]
         protocol = https
