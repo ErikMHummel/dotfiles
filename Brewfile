@@ -1,5 +1,3 @@
-tap "caskroom/cask"
-tap "caskroom/versions"
 tap "dteoh/sqa"
 tap "homebrew/bundle"
 tap "homebrew/core"
@@ -22,4 +20,8 @@ brew "terminal-notifier"
 brew "thefuck"
 brew "wget"
 brew "zsh"
+<<<<<<< HEAD
+=======
+cask "adoptopenjdk"
+>>>>>>> c49ad588ec39a3daca92a93dff666db8b09bdac3
 cask "slowquitapps"
