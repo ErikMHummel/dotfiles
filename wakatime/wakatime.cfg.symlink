@@ -2,3 +2,6 @@
 [settings]
 api_key = 0252f2b7-4652-43f3-b683-22648057c082
 status_bar_enabled = true
+[internal]
+cli_version = v1.7.4
+cli_version_last_modified = Wed, 26 May 2021 14:14:45 GMT
